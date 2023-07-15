@@ -1,0 +1,48 @@
+/*Estilizando o cabeçalho*/
+header{
+    background-color: #0044ff;
+    color: white;
+    padding: 20px;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+}
+
+nav ul li{
+    margin-right: 10px;
+}
+
+/*Estilizando o conteúdo principal*/
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+section{
+    flex: 0 0 calc(33.33% - 20px);
+    background-color: #ff0000;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/*Estilizando o rodapé*/
+footer{
+    background-color: #018b14;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
